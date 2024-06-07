@@ -1,0 +1,111 @@
+/* Importando as fontes do google */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&display=swap');
+/* Zerar as margens de todos os elementos 
+da página. Margens externas e internas */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Vamos adicionar uma imagem ao fundo do header */
+header {
+    background-image: url("../img/cafeteira10.jpg");
+    /* Ajustar o tamanho da imagem em 100% de largura */
+    background-size: 100%;
+    /* Ajustar a posicao da imagem em X e Y */
+    background-position: -5px -17px;
+    height: 750px;
+    padding: 25px;
+}
+nav {
+    /* Tornando o conteudo da nav flexivel, isso permite que os elementos, fiquem um ao lado do outro */
+    display: flex;
+    /* Alinhamento vertical dos elementos que estao no nav */
+    align-items: center;
+    /* align alinha o texto com o titulo */
+}
+
+h1 {
+    /* Mudar cor da letra */
+    color: white;
+    /* Alterar o tipo de letra */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Alterar o tamanho da letra */
+    font-size: 15pt;
+    /* Alterar o tamanho da letra */
+    text-transform: capitalize;
+    margin-right: 220px;
+}
+
+ul {
+    /* retirar marcador da lista */
+    list-style: none;
+
+}
+header ul li {
+    /* Vamos ajustar a disposição(display) dos itens da lista em formato de linha */
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 8px;
+}
+header ul li:hover {
+    background-color: rgb(180, 72, 72);
+}
+header ul li a {
+    color: rgb(255, 243, 240);
+    /* Retirar o Underline que é subilhado */
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer {
+    /*background do roda pé mudamos a cor o display colocando flex colocamos outra familia e fonte e cor */
+    background-color:#101010; 
+    /* #101010 */
+    display:flex;
+    justify-content: space-between;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* define uma a distância entre o conteúdo de um elemento e suas bordas */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    /* tamanho da fonte */
+    color: white;
+    /* cor da fonte  */
+   
+ 
+   
+}
+
+footer #rede li{
+    /* colocar as redes em linha */ 
+    /* o id no css fica como #  */
+    display: inline-block;
+}
+header h2{
+   /* Mudança do texto h2, cores, alinhamento e mudar alinhamento do texto, aumentando a margem de topo */
+    color: rgb(180, 72, 72);;
+    /* color: rgb(180, 72, 72); */
+    text-align: center;
+    margin-top: 40px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 39pt;
+    font-weight: 100;
+    text-shadow:0px 0px 100px rgb(155, 151, 151);
+}
+header p{
+     /* Alterar o tipo de letra */
+    font-family: "Kalam", cursive;
+/* Altera o tamanho da letra */
+    font-size: 13pt;
+    /* Altera a cor da letra */
+    color: rgb(231, 229, 226);
+    /* Alinhar o texto no centro */
+    text-align: center;
+    margin-left: 230px;
+    margin-right: 230px;
+    text-shadow:0px 0px 8px rgb(221, 219, 218);
+}
